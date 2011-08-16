@@ -1,6 +1,9 @@
 var App = SC.Application.create();
 
 App.MyView = SC.View.extend({
+  
+  classNames: ['test-view'],
+  
   pinchChange: function(rec) {
     this.$().css('scale',function(index, value) {
       return rec.get('scale') * value

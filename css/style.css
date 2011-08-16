@@ -88,7 +88,18 @@ a:hover { color: #036; }
 
 
 
-
+.test-view {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 15px;
+  background: limegreen;
+  position: absolute;
+  top: 50%;
+  margin-top:-100px;
+  left: 50%;
+  margin-left:-100px;
+}
 
 
 
